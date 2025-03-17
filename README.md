@@ -1,78 +1,92 @@
-<p align="center">
-  <a href="https://www.chromatic.com/">
-    <img alt="Chromatic" src="https://avatars2.githubusercontent.com/u/24584319?s=200&v=4" width="60" />
+# React Native Epic Trails Design System
+
+[![License](https://img.shields.io/npm/l/reactnativeepictrailsds.svg)](https://github.com/gaureshpai/reactnativeepictrailsds/blob/main/LICENSE)
+[![TypeScript](https://img.shields.io/badge/TypeScript-Ready-blue.svg)](https://www.typescriptlang.org/)
+[![Version](https://img.shields.io/badge/version-0.0.1-orange.svg)](https://github.com/gaureshpai/reactnativeepictrailsds)
+
+> **Note:** This package is currently in early development (v0.0.1). APIs may change frequently.
+
+A flexible and customizable design system for React Native, providing pre-built UI components, typography, and themes to enhance mobile app development with a focus on outdoor and adventure applications.
+
+## Under Development
+
+This design system is currently under active development. Many features are planned but not yet implemented. Documentation and examples will be expanded as development progresses.
+
+## Installation
+
+```bash
+npm install reactnativeepictrailsds
+# or
+yarn add reactnativeepictrailsds
+```
+
+## Getting Started
+
+```jsx
+import { Button } from 'reactnativeepictrailsds';
+
+export default function App() {
+  return (
+    <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <Button variant="primary">
+        Start Exploring
+      </Button>
+    </View>
+  );
+}
+```
+
+## Development
+
+To contribute to the design system:
+
+1. Clone the repository
+   ```bash
+   git clone https://github.com/gaureshpai/reactnativeepictrailsds.git
+   ```
+
+2. Install dependencies
+   ```bash
+   npm install
+   ```
+
+3. Start the development server
+   ```bash
+   npx expo start
+   ```
+
+## Current Components
+
+- **Buttons**: Primary, Secondary variants in Medium, Large, and Docked sizes
+- **Tiles**: Basic content containers with various states
+
+## Roadmap
+
+- Complete component library
+- Comprehensive documentation
+- Theme customization
+- Accessibility improvements
+- Interactive examples
+- Component playground
+
+## License
+
+[MIT](https://github.com/gaureshpai/reactnativeepictrailsds/blob/main/LICENSE)
+
+## Contributors
+
+<div align="center">
+  <a href="https://github.com/gaureshpai/reactnativeepictrailsds/graphs/contributors">
+    <img src="https://contrib.rocks/image?repo=gaureshpai/reactnativeepictrailsds" />
   </a>
-</p>
+</div>
 
-<h1 align="center">
-  Chromatic's Intro to Storybook React Native template
-</h1>
+## How to Contribute
 
-This template ships with the main React Native and Storybook configuration files you'll need to get up and running fast.
+Interested in joining our team? Check out our [contribution guidelines](CONTRIBUTING.md) to get started!
 
-## 🚅 Quick start
-
-1.  **Create the application.**
-
-    Use [degit](https://github.com/Rich-Harris/degit) to get this template.
-
-    ```shell
-    # Clone the template
-    npx degit chromaui/intro-storybook-react-native-template#main taskbox
-    ```
-
-1.  **Install the dependencies.**
-
-    Navigate into your new site’s directory and install the necessary dependencies.
-
-    ```shell
-    # Navigate to the directory
-    cd taskbox/
-
-    # Install the dependencies
-    yarn
-    ```
-
-1.  **Open the source code and start editing!**
-
-    Open the `taskbox` directory in your code editor of choice and building your first component!
-
-1.  **Browse your stories!**
-
-    Run `yarn storybook:ios` for ios or `yarn storybook:android` for android to see your component's stories on your emulator or device.
-
-## 🔎 What's inside?
-
-A quick look at the top-level files and directories included with this template.
-
-    .
-    ├── .gitignore
-    ├── LICENSE
-    ├── README.md
-    ├── App.jsx
-    ├── app.config.js
-    ├── yarn.lock
-    ├── package.json
-    ├── babel.config.js
-
-1.  **`.gitignore`**: This file tells git which files it should not track or maintain during the development process of your project.
-
-2.  **`LICENSE`**: The template is licensed under the MIT licence.
-
-3.  **`README.md`**: A text file containing useful reference information about the project.
-
-4. **`App.jsx`**: This is the entry point of your app.  
-
-5. **`app.config.js`**: This is the configuration file for Expo that allows you to customize your app.
-
-6. **`yarn.lock`**: This is an automatically generated file based on the exact versions of your npm dependencies that were installed.
-
-## Contribute
-
-If you encounter an issue with the template, we encourage you to open an issue in this template's repository.
-
-## Learning Storybook
-
-1. Read our introductory tutorial at [Learn Storybook](https://storybook.js.org/tutorials/intro-to-storybook/react-native/en/get-started/).
-2. Learn how to transform your component libraries into design systems in our [Design Systems for Developers](https://storybook.js.org/tutorials/design-systems-for-developers/) tutorial.
-3. See our official documentation at [Storybook](https://storybook.js.org/).
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
